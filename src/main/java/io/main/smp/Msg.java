@@ -1,0 +1,79 @@
+package io.main.smp;
+
+public enum Msg {
+
+    PLAYER_ONLY,
+
+    // Combat
+    COMBAT_ENTER,
+    COMBAT_CHAT_INFO,
+    COMBAT_EXPIRE,
+    COMBAT_DEATH_OTHER,
+    COMBAT_QUIT_OTHER,
+    COMBAT_NOT_IN,
+
+    // PvpCancel
+    CANCEL_DONE,
+    CANCEL_WAITING,
+    CANCEL_REQUEST_HEADER,
+    CANCEL_CONFIRM_QUESTION,
+    CANCEL_YES_BTN,
+    CANCEL_NO_BTN,
+    CANCEL_NO_REQUEST,
+    CANCEL_DENIED_SELF,
+    CANCEL_DENIED_OTHER,
+
+    // Command warmup
+    CMD_BLOCKED,
+
+    // Action bar / Boss bar
+    ACTION_BAR_COMBAT,
+    ACTION_BAR_CMD_LOCK,
+    BOSSBAR_TITLE,
+
+    // TPA
+    TPA_USAGE,
+    TPA_NOT_FOUND,
+    TPA_SELF,
+    TPA_SENT,
+    TPA_RECEIVED,
+    TPA_EXPIRED_SENDER,
+    TPA_EXPIRED_TARGET,
+    TPA_NO_REQUEST,
+    TPA_OFFLINE,
+    TPA_ACCEPT_TARGET,
+    TPA_ACCEPT_REQUESTER,
+    TPA_ACCEPT_TARGET2,
+    TPA_DENY_SELF,
+    TPA_DENY_OTHER,
+
+    // Home
+    HOME_USAGE_SET,
+    HOME_INVALID_NAME,
+    HOME_SET,
+    HOME_MAX,
+    HOME_USAGE_DEL,
+    HOME_DEL,
+    HOME_NOT_FOUND,
+    HOME_NONE,
+    HOME_LIST,
+    HOME_TELEPORT,
+
+    // Back
+    BACK_NO_LOCATION,
+    BACK_SUCCESS,
+
+    // Logout
+    LOGOUT_KICK,
+
+    // Chat
+    CHAT_COMBAT,
+    CHAT_COOLDOWN,
+    CHAT_DUPLICATE,
+
+    // SmpLang
+    LANG_USAGE,
+    LANG_SET,
+    LANG_INVALID,
+    LANG_NO_PERMISSION,
+}
