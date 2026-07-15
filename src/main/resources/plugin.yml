@@ -2,7 +2,7 @@
 version: '1.0.2'
 
 main: io.main.smp.Smp
-api-version: '26.2'
+api-version: '26.1'
 
 commands:
   pvpcancel:
